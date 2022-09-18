@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  top: 10px;
+}
+header .logo-box,
+header .search,
+header #logincart {
+  display: inline-block;
+  margin: 20px 50px;
+  width: 20vw;
+}
+
+header .login span,
+header .car span {
+  height: 30px;
+}
+.login .logo,
+.cart .logo {
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 40px;
+  height: 30px;
+}
+.login .logo {
+  right: 80px;
+}
+.cart .logo {
+  right: 50px;
+}
+.login,
+.cart {
+  display: inline-block;
+  margin-right: 10px;
+}
+.search {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-bottom: 1px solid;
+}
+.search input {
+  border: none;
+}
+.nav-bar {
+  width: 100%;
+  height: 70px;
+  border: solid 1px;
+  position: fixed;
+  background-color: white;
+  border-left: 0;
+  margin: 20px 0;
+  padding: 0 20%;
+  position: relative;
+}
+.nav-bar ul {
+  list-style: none;
+  margin-top: 3px;
+}
+.nav-bar li {
+  float: left;
+}
+.nav-bar .hambergerbar {
+  position: absolute;
+  right: 10px;
+}
+.nav-bar .hambergerbar img {
+  width: 40px;
+  height: 40px;
+  margin: 6px 30px;
+}
+
+.hamberger-menu li {
+  width: 100px;
+  height: 50px;
+  right: 10px;
+  clear: left;
+}
+.hamberger-menu li,
+.category li {
+  clear: left;
+  display: none;
+  width: 80px;
+  height: 30px;
+}
+.ob:hover .ob-category > li,
+.wo:hover .wo-category > li,
+.sk:hover .sk-category > li,
+.nc:hover .nc-category > li,
+.lg:hover .lg-category > li,
+.hambergerbar:hover .hamberger-menu > li {
+  display: block;
+  background-color: white;
+}
+
+#container main img {
+  display: block;
+  margin-top: 150px;
+}
+#products {
+  margin: 0 30px;
+}
+.product {
+  float: left;
+  margin: 0 15px;
+}
+.product img {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+footer {
+  clear: left;
+  border-top: 1px solid;
+  margin: 5px;
+}
+.banner {
+  width: 100%;
+}
